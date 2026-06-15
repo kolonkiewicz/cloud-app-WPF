@@ -1,21 +1,21 @@
 # Aplikacja chmurowa WPF
 
-Aplikacja WPF umożliwiająca zarządzanie plikamai użytkownika.
+Aplikacja desktopowa (Windows Presentation Foundation) umożliwiająca  przechowywanie i zarządzanie plikami użytkownika.
 
 ## Technologie
 
-- C#
-- WPF
-- Entity Framework
-- SQLite
+- **Interfejs graficzny:** WPF (Windows Presentation Foundation)
+- **Język:** C#
+- **Dostęp do danych:** Entity Framework Core
+- **Baza danych:** SQLite
+- **Wzorzec architektoniczny:** MVVM (Model-View-ViewModel)
 
 ## Funkcjonalności
 
-- rejestracja i logowanie użytkowników
-- autoryzacja użytkowników
-- przesyłanie plików
-- zarządznie plikami
-
+- **System kont użytkowników:** rejestracja oraz logowanie użytkowników wewnątrz aplikacji desktopowej.
+- **Autoryzacja użytkowników:** Zabezpieczenie dostępu do danych — użytkownik ma wgląd i zarządza wyłącznie własnymi plikami.
+- **Zarządzanie plikami:** Przesyłanie (upload), pobieranie (download) oraz usuwanie plików z poziomu interfejsu okienkowego.
+  
 ## Autor
 
-Mateusz Kolonko
+Mateusz Kolonko - https://github.com/kolonkiewicz
